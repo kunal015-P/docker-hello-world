@@ -1,6 +1,6 @@
 services:
   web:
-    image: atuljkamble/docker-hello-world:latest
+    image: kunal161/hello-world:latest
     build: .
     ports: ["80:80"]
     restart: unless-stopped
